@@ -1,0 +1,17 @@
+.Footer {
+    background: #2e2d2d;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.Footer .DivLink {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-block: 20px;
+}
+
+.DivLink a {
+    color: #fff;
+}

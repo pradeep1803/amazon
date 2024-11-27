@@ -1,0 +1,45 @@
+.Container {
+    display: flex;
+}
+
+.Container div {
+    width: 50%;
+    overflow: hidden;
+}
+
+.Container .Content {
+    padding: 20px;
+}
+
+.Container .ImgBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.Container .ImgBox .Box {
+    width: calc(100% / 3 - 10px);
+    height: 200px;
+    overflow: hidden;
+}
+
+.Container .ImgBox .Box img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Content h6 {
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.Content p {
+    margin-top: 30px;
+    color: #ccc;
+}
+
+.Container .ImgBox .Box img:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}

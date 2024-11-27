@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # Amazon Prime Clone
+ ![netflix clone from scratch](https://github.com/user-attachments/assets/6bd40ba8-0836-4906-948d-950054ad9cf8)
 
-## Getting Started
+## Overview  
+The **Prime Clone** is a visually striking landing page inspired by Amazon Prime Video. Built using **Next.js** and **TypeScript**, this project showcases a modern, responsive design that mimics the aesthetics of streaming platforms.  
 
-First, run the development server:
+This repository is perfect for developers looking to practice and learn front-end development techniques, particularly in building responsive layouts and reusable components.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used  
+- **Next.js 14**: A React framework offering high performance and server-side rendering for SEO optimization.  
+- **TypeScript**: A statically typed superset of JavaScript for writing scalable and maintainable code.  
+- **React.js**: Used for creating reusable UI components.  
+- **CSS Modules**: For modular and maintainable styling of components.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features  
+- **Landing Page**:  
+  - A fully visually engaging landing page with modern design principles.  
+  - Dynamic sections showcasing mock streaming content and promotions.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📌 In This Project:  
+- Creating a  visually appealing landing page.  
+- Utilizing **CSS Modules** for clean and maintainable styles.  
+- Writing modular, reusable components for dynamic page layouts.  
+- Leveraging **TypeScript** to ensure type safety and code scalability.  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Missing Features  
+As this project focuses only on the landing page, it does not include:  
+1. **Authentication Pages**: No sign-up or sign-in functionality is provided.  
+2. **Backend Integration**: No server-side logic or database connections.  
+3. **Advanced Features**: Features such as user profiles, streaming services, or payment gateways are not implemented.  
 
-## Learn More
+## Known Issues  
+- The project is designed primarily for desktop and tablet screens; additional optimizations may be required for smaller devices.  
 
-To learn more about Next.js, take a look at the following resources:
+## Installation  
+To run this project locally, follow the steps below:  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone this repository to your local machine:  
+   ```bash  
+   git clone https://github.com/EasyCodingTutorial/AmazonPrimeClone.git
+2. Navigate to the project directory:
+   ```bash  
+   cd prime-clone
+   
+3. Install dependencies:
+   ```bash  
+   npm install  
+   
+4. Start the development server:
+   ```bash  
+    npm run dev  
+   
+5. Open your browser and visit:
+   ```bash  
+    http://localhost:3000  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Future Enhancements
+If you'd like to extend this project, consider adding:
+  - A backend with APIs for authentication and data management.
+  - User profiles and personalized dashboards.
+  - Integration with a video player for streaming features.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributions
+Contributions are welcome! If you want to help improve the design or add functionality, feel free to fork this repository, make your changes, and submit a pull request.
+
+
+
+## Learn By Watching Video ▶️
+[![Watch Demo Video](https://img.youtube.com/vi/2tZL7bgK9uk/maxresdefault.jpg)](https://www.youtube.com/watch?v=2tZL7bgK9uk)

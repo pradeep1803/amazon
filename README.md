@@ -42,7 +42,7 @@ To run this project locally, follow the steps below:
    ```bash  
    cd prime-clone
    
-3. Install dependencies:
+3. Install dependencies: 
    ```bash  
    npm install  
    

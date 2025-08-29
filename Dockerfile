@@ -1,14 +1,21 @@
-# Build stage
-FROM node:18 AS build
+# Use official Node.js 18 image
+FROM node:18
+
+# Set working directory
 WORKDIR /app
-COPY package.json package-lock.json ./
+
+# Copy package files and install dependencies
+COPY package*.json ./
 RUN npm install
+
+# Copy all files
 COPY . .
+
+# Build the Next.js app
 RUN npm run build
 
-# Production stage
-FROM node:18
-WORKDIR /app
-COPY --from=build /app ./
+# Expose port 3000
 EXPOSE 3000
-CMD ["npm", "run", "start:prod"]
+
+# Start the app
+CMD ["npm", "start"]

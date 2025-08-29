@@ -1,0 +1,29 @@
+{
+  "family": "prime-task-fargate",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "executionRoleArn": "arn:aws:iam::982081069647:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "prime-container",
+      "image": "982081069647.dkr.ecr.us-east-1.amazonaws.com/amazon-prime-clone:latest",
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true,
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/prime-task-fargate",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ]
+}
